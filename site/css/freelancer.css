@@ -16,6 +16,10 @@ p.small {
 p.info{
 font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+p.link{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+}
 a,
 a:hover,
 a:focus,
