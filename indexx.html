@@ -18,7 +18,7 @@
                 window.location="site/index.html";
               }
               else {
-                window.location="indexx.html";
+                alert("Incorrect Credentials");
               }
             }
             </script>
@@ -29,6 +29,7 @@
   <div class="login-page">
   <div class="form">
     <form class="login-form">
+      <font color="red">Incorrect Credentials</font><br><br>
       <input type="text" id = "uname" placeholder="Username"/>
       <input type="password" id = "pwd" placeholder="Password"/>
       <input class="b" type="button" onclick="check();" value="Let me in"/>
