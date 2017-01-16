@@ -90,7 +90,6 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
 }
@@ -113,7 +112,6 @@ header .intro-text .skills {
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
@@ -155,7 +153,6 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  text-transform: uppercase;
   font-size: 10px;
 }
 .navbar-custom .navbar-toggle:hover,

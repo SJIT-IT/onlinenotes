@@ -55,7 +55,6 @@ hr.star-primary:after {
 .navbar-custom,
 header .intro-text .name {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase
 }
 hr.star-light {
     border-color: #fff
@@ -144,7 +143,6 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle {
     color: #fff;
-    text-transform: uppercase;
     font-size: 10px;
 }
 .navbar-custom .navbar-toggle:focus,
