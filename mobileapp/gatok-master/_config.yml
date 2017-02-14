@@ -32,6 +32,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+sass_dir: ./_scss
 
 sass: 
   style: compressed
