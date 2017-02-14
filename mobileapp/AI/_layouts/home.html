@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="homepage">
+
+  <div class="block-left">
+    <div class="content">
+      <div class="main-info">
+        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+        <h1>
+          {{ site.title }}
+        </h1>
+        <h2>
+        {% for post in site.posts %}<a style="color: white" href="{{ post.link }}">{{ post.title }}</a><br>
+        {% endfor %}
+      </div>
+        </h2>
+    </div>
+    <canvas></canvas>
+  </div>
+  {% include overlay.html %}
+  {% include scripts.html %}
+  <script src="{{ site.url }}/assets/js/canvas.js"></script>
+</body>
+</html>
